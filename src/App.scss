@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  width: 700px;
+  background-color: black;
+  padding: 6rem 4rem;
+  border-radius: 20px;
+  position: relative;
+}
+
+.steps {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+
+  .step {
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    line-height: 1.2;
+  }
+}
+
+.progress {
+  // width: 50%;
+  background-color: darkslategrey;
+  height: 5px;
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0.5rem;
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,18 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .title {
+    margin: 0;
+  }
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 1rem;
+}
